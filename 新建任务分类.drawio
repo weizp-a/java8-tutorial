@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T06:21:58.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="eT_8pLYnTiY8bGkOA_Xo" version="12.8.8" type="github"><diagram id="8ww4kMy-OGokvhHyVhnX" name="Page-1">1Vpbd5s4EP41enQONwF6BBu3D9t2m2TPbvelhxrFpsWIA3Js99evRghztcO2duw8xEcajUbSzPdJIxFkTte7d3mYrT6wiCbI0KIdMmfIMIhli18Q7EsBtsxSsMzjqBTpteAh/kmVUFPSTRzRoqXIGUt4nLWFC5amdMFbsjDP2bat9sSS9qhZuKQ9wcMiTPrSv+OIr0qpazi1/D2Nl6tqZN0mZcs6rJTVSopVGLFtQ2QGyJzmjPGytN5NaQK+q/xS9psfaT1MLKcpH9Phg2V8/6zlj/beczIn/ffTg25MjNLKc5hs1IJRgJE/Ra4GBc9Brq+mz/eVTwqesx8Hd4iF+Cu+TkRRF0WxzAz01rslAOLuKWHbxSrM+R2n+TpOQ85yobZdxZw+ZOECdLdCU8j6K1KLfKY5p7uGSK3wHWVryvO9UFGttnL2vkKRWuC2jp2uKZ1VI26WkoUKLsuD5dqjoqCc+j8cbOOe+2gkEKaqLOcrtmRpmAS11M/ZJo0omNVErdb5g7FMufk75Xyv6BJuOGsHge5i/g90v8Oq9kUZg/Js16zsq0oq1tvoBNUvzba6m6xV/QougqtmUnasaGyciil44WREc5qEPH5u83AoPrKrl+fhvqGQsTjlRcPynyCogWLZVgspuEOejrqrayfURaEc/9hY9h3u4LKDt4Jt8gVV/TqQO/hkFAo/7e7dzdd7/bH4y9n5E59MsDZx+zS/AiqPYkEgaEn5ifk7F8FML1B6J8o6ft0wVcPfapzK5b8cpxfjSc4dz7F79KlZtw5BG3ka8nQUEOR5yJ3Kgo58ggIHER95AQpMOCVdXZ6YDvIwCizkzxCZQncfy6aGjusi14buvrDjg4SIphlIxDnra7IwQy7pxbyOqH7k6BwTvfGnKG7vVoap9U9RfeAUdc5wimYfZ1bs7vPk/bePn80s1FjydWLeEC86oP01opA+UQYXblyTF2SQF8SWWMWAYd+TmPcVnl1PUqYH9RvDs4lH4tkyLoRn/IbxfBynI/BsvRKeT02yg2exddfo1eTO70oYC6jPkD9HwVxeiFx5IQoQCeAsIAS5WLJAA5CDsug1l3QQBU9cWhd5nPGYpZWBs+zrPdAPxOsoDwyrSwRnHBEM90IhuaXE9CxEsEYSwbkmEawBIogdOwAuABHmYpPnYfFjmoRFofZzwYXDgwCkQCIpsuQOb0r6SBKRudQRKZAjeRRAFlTTR+ZUkEHZkPZ4wVBO1WefSJMMkYDBfB73GYU/2TqXGZcknWcMjds3JatCeLOEvH6mpet9bLxtRg7cSYZXrg2H6nUoefQO0uLLGLp1T7SnmCbRPU0ORAQmLSpmS24NmcFwvonRYGPQEbEaksMsbpVGxBrHImxfKJrmwA77tllUue9FGpnmNWk09ILSRDlcz00JZSKv3v0DSOZvrl9RQmucXw78+naN+zF3n/qiJG73vrL8IrWuzSjLvDVG3dA7etUy/I5+RtL9NpeOvEeT9jOn2f36UZL8HM+cJ5bVIykkmU2+lKkdHmJZ8w0tUBlp92R04CEOmqr079Y4NTrZuxip9KF3CDvhsHQoLaH0q28+pR0xr4apbgiEM3nbz2ESL1NRXginUvhQCC6PF2HiqYZ1HEUluWkR/wy/SVPAO/XFR9jFPsIzsCX4XJTUPlMIday3mWP0I2gMRfBS6bphD1CppICpkE/6yL/sB9zfI4nV3Ztw38Vn+oIrqvXn93Jzq/+HwQz+Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-15T06:39:25.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="ezGF0Ht8acYrnzgbTQTG" version="12.8.8" type="github">
+  <diagram id="8ww4kMy-OGokvhHyVhnX" name="Page-1">
+    <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M42jQ0rT6yA7p7nZOS12-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="60" y="102" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M42jQ0rT6yA7p7nZOS12-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=5;endSize=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="50" />
+              <mxPoint x="810" y="50" />
+            </Array>
+            <mxPoint x="466.5" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxR8u_R1TsU7xB-B9-50-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="OxR8u_R1TsU7xB-B9-50-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxR8u_R1TsU7xB-B9-50-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OxR8u_R1TsU7xB-B9-50-7" target="OxR8u_R1TsU7xB-B9-50-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OxR8u_R1TsU7xB-B9-50-7" value="校验项目、工作流、分类名称等" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="230" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OxR8u_R1TsU7xB-B9-50-9" target="pND4i8yrlHbNQ3pa0ol_-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OxR8u_R1TsU7xB-B9-50-9" value="新建任务分类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="364" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-2" target="pND4i8yrlHbNQ3pa0ol_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-2" value="创建taskClass模板（选填：创建该类型任务时自动填充内容）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="357" width="110" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-4" target="pND4i8yrlHbNQ3pa0ol_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-4" value="获取taskClass初始的系统字段（根据项目模板和taskTypeType查询字段模板表）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="230" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-7" target="pND4i8yrlHbNQ3pa0ol_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-7" value="根据系统字段添加fieldRel（taskclass和字段关联关系）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="94" width="110" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-10" target="pND4i8yrlHbNQ3pa0ol_-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-10" value="和当前项目下子（父）任务分类建立关联关系" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="94" width="110" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-33" value="创建该任务类型系统看板" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="230" width="110" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-15" value="&lt;h2&gt;新建任务分类&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="151" y="32" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-26" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="440" y="345" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
