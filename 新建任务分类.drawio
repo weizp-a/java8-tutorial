@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T01:55:30.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="NIOLjAkfWxbjrGlcdzJP" version="13.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-06T13:54:56.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="_JyYS8KL8Glxk4EvceU9" version="13.3.0" type="github" pages="4">
   <diagram id="8ww4kMy-OGokvhHyVhnX" name="Page-1">
     <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,18 +39,18 @@
         <mxCell id="pND4i8yrlHbNQ3pa0ol_-2" value="构造FieldRelList，批量插入" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="357" width="110" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="ZPGcMv7oUMxm7xbSEC-z-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pND4i8yrlHbNQ3pa0ol_-4" target="pND4i8yrlHbNQ3pa0ol_-26">
+        <mxCell id="ZPGcMv7oUMxm7xbSEC-z-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pND4i8yrlHbNQ3pa0ol_-4" target="pND4i8yrlHbNQ3pa0ol_-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pND4i8yrlHbNQ3pa0ol_-4" value="同步该任务类型下全部task到es" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="230" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pND4i8yrlHbNQ3pa0ol_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="pND4i8yrlHbNQ3pa0ol_-10" edge="1">
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="122" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pND4i8yrlHbNQ3pa0ol_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="pND4i8yrlHbNQ3pa0ol_-33" edge="1">
+        <mxCell id="pND4i8yrlHbNQ3pa0ol_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="150" as="sourcePoint" />
           </mxGeometry>
@@ -111,10 +111,244 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gq-j-CIZzpVMhEtyVBeZ" name="第 3 页">
-    <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tEReUP_SssDiK9otTzJF-0" />
         <mxCell id="tEReUP_SssDiK9otTzJF-1" parent="tEReUP_SssDiK9otTzJF-0" />
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-10" value="&lt;h2&gt;修改任务、字段流转、修改任务分类、修改任务组、重命名任务组&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="230" y="330" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-Ms-RT8c_bGAQEfRFoj-26">
+          <mxGeometry x="-0.275" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-22" target="q-Ms-RT8c_bGAQEfRFoj-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-57" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-Ms-RT8c_bGAQEfRFoj-56">
+          <mxGeometry x="-0.4527" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-22" value="是否修改状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="70" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-31" value="进行流转处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="210" y="990" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-Ms-RT8c_bGAQEfRFoj-38">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-Ms-RT8c_bGAQEfRFoj-48">
+          <mxGeometry x="0.0533" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-36" value="是否修改任务分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="230" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-40" value="修改任务分类（允许顺便修改字段值）&lt;br&gt;1、修改task_class_id&lt;br&gt;2、重置工作流为初始态&lt;br&gt;3、发送修改任务分类事件（处理关联任务、父子任务联动）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="200" y="690" width="190" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-43" target="q-Ms-RT8c_bGAQEfRFoj-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-43" value="真正修改任务（之前全是为了构造taskBo）&lt;br&gt;1、校验标题长度、校验任务组是否重名、校验子任务修改父任务不能直接指到任务组下&lt;br&gt;2、执行update task表&lt;br&gt;3、同步es、双写、记录日志" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="475" y="830" width="270" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-45" value="真正修改字段（之前全是为了构造taskBo）&lt;br&gt;1、根据前端传参taskId构造taskBo&lt;br&gt;2、构造需要修改的fieldValues（包含taskBo已有的全部字段值+前端传的需要修改的值）&lt;br&gt;3、校验字段是否存在、校验必填、校验值合法性&lt;br&gt;4、若执行人变更，前执行人自动添加到参与人&lt;br&gt;5、执行update pm_field_value表&lt;br&gt;6、发送修改字段值事件（IM通知）&lt;br&gt;7、记录log" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="450" y="540" width="320" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-52" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="604" y="524" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-53" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="560" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qHhPsDldHvucaCUlcxIr-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-0" target="q-Ms-RT8c_bGAQEfRFoj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="60" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-3" value="校验标题、描述、字段值非空、内容上限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="55" y="420" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-5" value="汇总字段单独校验（用于统计，防止统计数据异常）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="55" y="513" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-3" target="q-Ms-RT8c_bGAQEfRFoj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-12" value="未分组单独处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="55" y="590" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-5" target="q-Ms-RT8c_bGAQEfRFoj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-15" target="q-Ms-RT8c_bGAQEfRFoj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-60" value="开始进入alterTask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-Ms-RT8c_bGAQEfRFoj-59">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-15" value="校验任务写权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="55" y="668" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tEReUP_SssDiK9otTzJF-1" source="q-Ms-RT8c_bGAQEfRFoj-12" target="q-Ms-RT8c_bGAQEfRFoj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Ms-RT8c_bGAQEfRFoj-65" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;todo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;1、构造修改字段太麻烦，应该直接取用户修改的字段。目前是source：已有字段值。target：已有字段值+用户传参并集，然后过滤出source和target值不一样的fieldKey（此处需要前端一起修改）&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、流转应该单独拆分出来，避免非流转必填字段影响流转&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3、任务字段校验有重复，比较混乱，统一提到最前面&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="520" y="960" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m2s9UaB8YKX3Tss0Q1bH-0" value="状态流转&lt;br&gt;1、根据流转填写的字段构造taskBo&lt;br&gt;2、获取流转规则配置&lt;br&gt;3、校验流转必填字段&lt;br&gt;4、校验流转可操作人&lt;br&gt;5、修改field_value status字段值&lt;br&gt;6、IM通知、记录log&lt;br&gt;7、父子任务联动&lt;br&gt;8任务属性修改" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
+          <mxGeometry x="180" y="970" width="200" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HSTR-MzBRY47eLDbS1ZB" name="第 4 页">
+    <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-0" />
+        <mxCell id="UfMIAbnwwcieemT6gBBo-1" parent="UfMIAbnwwcieemT6gBBo-0" />
+        <mxCell id="UfMIAbnwwcieemT6gBBo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-8" value="状态流转&lt;br&gt;1、根据流转填写的字段构造taskBo&lt;br&gt;2、获取流转规则配置&lt;br&gt;3、校验流转必填字段&lt;br&gt;4、校验流转可操作人&lt;br&gt;5、修改field_value status字段值&lt;br&gt;6、IM通知、记录log&lt;br&gt;7、父子任务联动&lt;br&gt;8任务属性修改" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="190" y="980" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UfMIAbnwwcieemT6gBBo-9">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-13" target="UfMIAbnwwcieemT6gBBo-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UfMIAbnwwcieemT6gBBo-11">
+          <mxGeometry x="0.0533" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-13" value="是否修改任务分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="230" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-15" value="修改任务分类（允许顺便修改字段值）&lt;br&gt;1、修改task_class_id&lt;br&gt;2、重置工作流为初始态&lt;br&gt;3、发送修改任务分类事件（处理关联任务、父子任务联动）" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="200" y="690" width="190" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-17" target="UfMIAbnwwcieemT6gBBo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-17" value="真正修改任务&lt;br&gt;2、执行update task表&lt;br&gt;3、同步es、双写、记录日志" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="500" y="829" width="270" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-19" value="真正修改字段&lt;br&gt;1、若执行人变更，前执行人自动添加到参与人&lt;br&gt;2、执行update pm_field_value表&lt;br&gt;3、发送修改字段值事件（IM通知）&lt;br&gt;4、记录log" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="500" y="660" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-22" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="60" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" target="UfMIAbnwwcieemT6gBBo-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="218" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-24" value="校验修改的task基本属性、字段合法性与必填、修改任务组是否正常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="55" y="298" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-25" value="汇总字段单独校验（用于统计，防止统计数据异常）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="55" y="432" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-24" target="UfMIAbnwwcieemT6gBBo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-27" value="未分组单独处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="55" y="554" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-25" target="UfMIAbnwwcieemT6gBBo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-31" target="UfMIAbnwwcieemT6gBBo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-30" value="开始进入alterTask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UfMIAbnwwcieemT6gBBo-29">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-31" value="校验任务写权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="55" y="668" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-27" target="UfMIAbnwwcieemT6gBBo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-34" target="UfMIAbnwwcieemT6gBBo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-34" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="10" y="1025" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-21" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="585" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-19" target="UfMIAbnwwcieemT6gBBo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="targetPoint" />
+            <mxPoint x="610" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
