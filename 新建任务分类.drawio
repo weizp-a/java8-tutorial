@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T13:54:56.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="_JyYS8KL8Glxk4EvceU9" version="13.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-07T03:28:23.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="9xekxqFgQvzO_2vc8EAc" version="13.3.0" type="github" pages="4">
   <diagram id="8ww4kMy-OGokvhHyVhnX" name="Page-1">
     <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q-Ms-RT8c_bGAQEfRFoj-65" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;todo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;1、构造修改字段太麻烦，应该直接取用户修改的字段。目前是source：已有字段值。target：已有字段值+用户传参并集，然后过滤出source和target值不一样的fieldKey（此处需要前端一起修改）&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、流转应该单独拆分出来，避免非流转必填字段影响流转&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3、任务字段校验有重复，比较混乱，统一提到最前面&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
-          <mxGeometry x="520" y="960" width="350" height="130" as="geometry" />
+          <mxGeometry x="700" y="1032" width="350" height="130" as="geometry" />
         </mxCell>
         <mxCell id="m2s9UaB8YKX3Tss0Q1bH-0" value="状态流转&lt;br&gt;1、根据流转填写的字段构造taskBo&lt;br&gt;2、获取流转规则配置&lt;br&gt;3、校验流转必填字段&lt;br&gt;4、校验流转可操作人&lt;br&gt;5、修改field_value status字段值&lt;br&gt;6、IM通知、记录log&lt;br&gt;7、父子任务联动&lt;br&gt;8任务属性修改" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="tEReUP_SssDiK9otTzJF-1">
           <mxGeometry x="180" y="970" width="200" height="130" as="geometry" />
@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-8" value="状态流转&lt;br&gt;1、根据流转填写的字段构造taskBo&lt;br&gt;2、获取流转规则配置&lt;br&gt;3、校验流转必填字段&lt;br&gt;4、校验流转可操作人&lt;br&gt;5、修改field_value status字段值&lt;br&gt;6、IM通知、记录log&lt;br&gt;7、父子任务联动&lt;br&gt;8任务属性修改" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="190" y="980" width="200" height="130" as="geometry" />
+          <mxGeometry x="190" y="935" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-13">
           <mxGeometry relative="1" as="geometry">
@@ -295,25 +295,22 @@
         <mxCell id="UfMIAbnwwcieemT6gBBo-19" value="真正修改字段&lt;br&gt;1、若执行人变更，前执行人自动添加到参与人&lt;br&gt;2、执行update pm_field_value表&lt;br&gt;3、发送修改字段值事件（IM通知）&lt;br&gt;4、记录log" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
           <mxGeometry x="500" y="660" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UfMIAbnwwcieemT6gBBo-22" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="60" y="170" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UfMIAbnwwcieemT6gBBo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" target="UfMIAbnwwcieemT6gBBo-24">
+        <mxCell id="UfMIAbnwwcieemT6gBBo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" target="UfMIAbnwwcieemT6gBBo-24" source="UfMIAbnwwcieemT6gBBo-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="218" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfMIAbnwwcieemT6gBBo-24" value="校验修改的task基本属性、字段合法性与必填、修改任务组是否正常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="55" y="298" width="110" height="70" as="geometry" />
+        <mxCell id="UfMIAbnwwcieemT6gBBo-24" value="校验任务写权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="62.5" y="420" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-25" value="汇总字段单独校验（用于统计，防止统计数据异常）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="55" y="432" width="110" height="42" as="geometry" />
+          <mxGeometry x="55" y="500" width="110" height="42" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-24" target="UfMIAbnwwcieemT6gBBo-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-27" value="未分组单独处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="55" y="554" width="110" height="42" as="geometry" />
+          <mxGeometry x="55" y="580" width="110" height="42" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-25" target="UfMIAbnwwcieemT6gBBo-27">
           <mxGeometry relative="1" as="geometry" />
@@ -328,8 +325,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfMIAbnwwcieemT6gBBo-31" value="校验任务写权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="55" y="668" width="110" height="42" as="geometry" />
+        <mxCell id="UfMIAbnwwcieemT6gBBo-31" value="校验修改的task基本属性、字段合法性与必填、修改任务组是否正常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="60" y="650" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UfMIAbnwwcieemT6gBBo-1" source="UfMIAbnwwcieemT6gBBo-27" target="UfMIAbnwwcieemT6gBBo-31">
           <mxGeometry relative="1" as="geometry" />
@@ -338,7 +335,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-34" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
-          <mxGeometry x="10" y="1025" width="100" height="40" as="geometry" />
+          <mxGeometry x="20" y="980" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UfMIAbnwwcieemT6gBBo-21" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
           <mxGeometry x="585" y="510" width="100" height="40" as="geometry" />
@@ -348,6 +345,9 @@
             <mxPoint x="610" y="460" as="targetPoint" />
             <mxPoint x="610" y="590" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UfMIAbnwwcieemT6gBBo-22" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="UfMIAbnwwcieemT6gBBo-1">
+          <mxGeometry x="60" y="340" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
